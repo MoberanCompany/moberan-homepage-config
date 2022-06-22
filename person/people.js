@@ -11,7 +11,7 @@ const peopleData = [
         "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/haesung.jfif?raw=true", 
         "role": "Web Application",
         "bio":"사랑합니다 고객님❤",
-        "link":"https://github.com/lululalala"
+        "link":"https://github.com/haesungjoo"
     }
 ];
 
