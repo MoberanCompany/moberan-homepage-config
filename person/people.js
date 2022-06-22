@@ -12,6 +12,13 @@ const peopleData = [
         "role": "Web Application",
         "bio":"사랑합니다 고객님❤",
         "link":"https://github.com/haesungjoo"
+    },
+    {
+        "name": "왕재현",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/jaehyun.png?raw=true", 
+        "role": "Windows/Web Application",
+        "bio":"먹이를 주지 마시오",
+        "link":"https://github.com/aresmesboy"
     }
 ];
 
