@@ -86,8 +86,9 @@ function createYearHistory(isLeft, year, datas){
 function historyGenerate() {
     let elements = [];
     let keys = Object.keys(historyData);
+    keys.sort((a,b)=> b-a)
     for(let index = 0; index < keys.length; index++){
-        let isLeft = index % 2;
+        let isLeft = (index + 1) % 2;
         let key = keys[index];
         let value = historyData[key];
         let li = createYearHistory(isLeft, key, value);
