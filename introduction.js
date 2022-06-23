@@ -65,6 +65,6 @@ function generateCompanyInformationHtml(){
         const companyInformationHtml = generateCompanyInformationHtml();
         const informationDOM = document.querySelector("#section01 .about .about_list");
 
-        informationDOM.innerHTML(companyInformationHtml)
+        informationDOM.innerHTML = companyInformationHtml;
     });
 })();
