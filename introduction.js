@@ -6,28 +6,27 @@ const datas = [
         "content": "방송사 납품"
     },
     {
-        "count": 5,
+        "count": 11,
         "isUnit": true,
         "unit": "개",
-        "content": "방송사 납품"
+        "content": "2022년 프로젝트 완료"
+    },
+    {
+        "count": +3700,
+        "isUnit": false,
+        "content": "회사 창립"
     },
     {
         "count": 5,
         "isUnit": true,
-        "unit": "개",
-        "content": "방송사 납품"
+        "unit": "회",
+        "content": "2022년 여행"
     },
     {
-        "count": 5,
+        "count": 20,
         "isUnit": true,
-        "unit": "개",
-        "content": "방송사 납품"
-    },
-    {
-        "count": 5,
-        "isUnit": true,
-        "unit": "개",
-        "content": "방송사 납품"
+        "unit": "건",
+        "content": "Flutter 프로젝트"
     },
 ];
 
