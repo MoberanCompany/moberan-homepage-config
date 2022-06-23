@@ -34,7 +34,7 @@ const datas = [
 function generateInformation({count, isUnit, unit, content}){
     return `
         <li>
-            <p class="count">${count}${isUnit ? `<span><${unit}/span>`: ""}</p>
+            <p class="count">${count}${isUnit ? `<span>${unit}</span>`: ""}</p>
             <p class="ex_txt">${content}</p>
         </li>
     `;
