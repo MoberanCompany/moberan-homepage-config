@@ -1,5 +1,12 @@
 const peopleData = [
     {       
+        "name": "백지훈",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/jhbaik.png?raw=true", 
+        "role": "대표",
+        "bio": "개발은 모베란으로 통합니다.",
+        "link":"https://github.com/zoops"
+    },
+    {       
         "name": "손민재",
         "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/minjae.jfif?raw=true", 
         "role": "Mobile Application",
