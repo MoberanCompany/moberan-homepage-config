@@ -26,7 +26,21 @@ const peopleData = [
         "role": "Windows/Web Application",
         "bio":"먹이를 주지 마시오",
         "link":"https://github.com/aresmesboy"
-    }
+    },
+    {
+        "name": "김민희",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/jaehyun.png?raw=true", 
+        "role": "Excel, HWP",
+        "bio":"제주살이 화이팅",
+        "link":""
+    },
+    {
+        "name": "유호단",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/jaehyun.png?raw=true", 
+        "role": "Team Leader",
+        "bio":"어제보다 좋은 서비스를 위하여, 오늘도 개발!",
+        "link":"https://github.com/idas4you"
+    } 
 ];
 
 function peopleGenerate(){
