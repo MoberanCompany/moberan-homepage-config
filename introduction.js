@@ -1,40 +1,43 @@
 const datas = [
     {
-        "count": "5",
-        "isUnit": true,
-        "unit": "개",
-        "content": "방송사 납품"
+        "text": "5",
+        "textSize": 48,
+        "textUnitYN": "Y",
+        "textUnit": "개",
+        "textUnitSize": 16,
+        "subTextYN": "Y",
+        "subText": "방송사 납품",
+        "subTextSize": 17
     },
-    {
-        "count": "11",
-        "isUnit": true,
-        "unit": "개",
-        "content": "2022년 프로젝트 완료"
-    },
-    {
-        "count": "+3700",
-        "isUnit": false,
-        "content": "회사 창립"
-    },
-    {
-        "count": "5",
-        "isUnit": true,
-        "unit": "회",
-        "content": "2022년 여행"
-    },
-    {
-        "count": "20",
-        "isUnit": true,
-        "unit": "건",
-        "content": "Flutter 프로젝트"
-    },
+    // {
+    //     "count": "11",
+    //     "isUnit": true,
+    //     "unit": "개",
+    //     "content": "2022년 프로젝트 완료"
+    // },
+    // {
+    //     "count": "+3700",
+    //     "isUnit": false,
+    //     "content": "회사 창립"
+    // },
+    // {
+    //     "count": "5",
+    //     "isUnit": true,
+    //     "unit": "회",
+    //     "content": "2022년 여행"
+    // },
+    // {
+    //     "count": "20",
+    //     "isUnit": true,
+    //     "unit": "건",
+    //     "content": "Flutter 프로젝트"
+    // },
 ];
 
-function generateInformation({count, isUnit, unit, content}){
+function generateInformation({text, textSize, textUnitYN, textUnit, textUnitSize, subTextYN, subText, subTextSize}){
     return `
         <li>
-            <p class="count">${count}${isUnit ? `<span>${unit}</span>`: ""}</p>
-            <p class="ex_txt">${content}</p>
+            <img src="https://mwidget.moberan.com/api/svg/text/info?text=${text}&textSize=${textSize}&textUnitYN=${textUnitYN}&textUnit=${textUnit}&textUnitSize=${textUnitSize}&subTextYN=${subTextYN}&subText=${subText}&subTextSize=${subTextSize}}">
         </li>
     `;
 } 
@@ -45,14 +48,7 @@ function generateCompanyInformationHtml(){
 
     datas.map((data)=>{
         datasArr.push(
-            generateInformation(
-                {
-                    count: data.count,
-                    isUnit: data.isUnit,
-                    unit: data.unit,
-                    content: data.content,
-                }
-            )
+            generateInformation(data)
         )
     });
 
