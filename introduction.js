@@ -9,29 +9,46 @@ const datas = [
         "subText": "방송사 납품",
         "subTextSize": 17
     },
-    // {
-    //     "count": "11",
-    //     "isUnit": true,
-    //     "unit": "개",
-    //     "content": "2022년 프로젝트 완료"
-    // },
-    // {
-    //     "count": "+3700",
-    //     "isUnit": false,
-    //     "content": "회사 창립"
-    // },
-    // {
-    //     "count": "5",
-    //     "isUnit": true,
-    //     "unit": "회",
-    //     "content": "2022년 여행"
-    // },
-    // {
-    //     "count": "20",
-    //     "isUnit": true,
-    //     "unit": "건",
-    //     "content": "Flutter 프로젝트"
-    // },
+    {
+        "text": "11",
+        "textSize": 48,
+        "textUnitYN": "Y",
+        "textUnit": "개",
+        "textUnitSize": 16,
+        "subTextYN": "Y",
+        "subText": "2022년 프로젝트 완료",
+        "subTextSize": 17
+    },
+    {
+        "text": "+3700",
+        "textSize": 48,
+        "textUnitYN": "N",
+        "textUnit": "",
+        "textUnitSize": 16,
+        "subTextYN": "Y",
+        "subText": "회사 창립",
+        "subTextSize": 17
+    },
+    {
+        "text": "5",
+        "textSize": 48,
+        "textUnitYN": "Y",
+        "textUnit": "회",
+        "textUnitSize": 16,
+        "subTextYN": "Y",
+        "subText": "회사 창립",
+        "subTextSize": 17
+    },
+    {
+        "text": "20",
+        "textSize": 48,
+        "textUnitYN": "Y",
+        "textUnit": "건",
+        "textUnitSize": 16,
+        "subTextYN": "Y",
+        "subText": "Flutter 프로젝트",
+        "subTextSize": 17
+    },
 ];
 
 function generateInformation({text, textSize, textUnitYN, textUnit, textUnitSize, subTextYN, subText, subTextSize}){
