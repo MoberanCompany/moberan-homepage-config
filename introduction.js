@@ -37,7 +37,7 @@ const datas = [
         "textUnit": "회",
         "textUnitSize": 16,
         "subTextYN": "Y",
-        "subText": "회사 창립",
+        "subText": "2022년 여행",
         "subTextSize": 17
     },
     {
