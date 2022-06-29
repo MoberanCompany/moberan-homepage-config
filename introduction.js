@@ -20,7 +20,8 @@ const datas = [
         "subTextSize": 17
     },
     {
-        "text": "+3700",
+        "text": "%2B3700",
+        // +3700
         "textSize": 48,
         "textUnitYN": "N",
         "textUnit": "",
