@@ -1,6 +1,6 @@
 function makeGalleryImage(id){
     const url = wrapCors(`https://photo.moberan.com/photo/webapi/thumb.php?api=SYNO.PhotoStation.Thumb&method=get&version=1&size=large&id=${id}`)
-    return `<div><img src="${url}" /></div>`;
+    return `<div><img data-lazy="${url}" /></div>`;
 }
 
 function syncXhr(url){
@@ -19,7 +19,7 @@ function wrapCors(url){
 }
 
 function fetchPhotoList(){
-    const photoCount = 50;
+    const photoCount = 500;
     let data = syncXhr(wrapCors(`https://photo.moberan.com/photo/webapi/photo.php?version=1&method=list&limit=${photoCount}&offset=0&api=SYNO.PhotoStation.Photo&type=photo&sort_by=takendate&sort_direction=desc`));
     if(data != null){
         data = JSON.parse(data);
