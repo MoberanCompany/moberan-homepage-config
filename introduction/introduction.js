@@ -1,5 +1,3 @@
-const assetBasicPath = "/"
-
 const datas = [
     {
         "text": "5",
@@ -10,7 +8,7 @@ const datas = [
         "subTextYN": "Y",
         "subText": "방송사 납품",
         "subTextSize": 17,
-        "asset": "/broadcast.png"
+        "asset": "broadcast.png"
     },
     {
         "text": "11",
@@ -21,7 +19,7 @@ const datas = [
         "subTextYN": "Y",
         "subText": "2022년 프로젝트 완료",
         "subTextSize": 17,
-        "asset": "/document.png"
+        "asset": "document.png"
     },
     {
         "text": "+3700",
@@ -33,7 +31,7 @@ const datas = [
         "subTextYN": "Y",
         "subText": "회사 창립",
         "subTextSize": 17,
-        "asset": "/company.png"
+        "asset": "company.png"
     },
     {
         "text": "5",
@@ -44,7 +42,7 @@ const datas = [
         "subTextYN": "Y",
         "subText": "2022년 여행",
         "subTextSize": 17,
-        "asset": "/airplane.png"
+        "asset": "airplane.png"
     },
     {
         "text": "20",
@@ -55,7 +53,7 @@ const datas = [
         "subTextYN": "Y",
         "subText": "Flutter 프로젝트",
         "subTextSize": 17,
-        "asset": "/idea.png"
+        "asset": "idea.png"
     },
 ];
 
@@ -68,12 +66,16 @@ function generateInformation({text, textSize, textUnitYN, textUnit, textUnitSize
     return `
         <li>
             <div style="display: flex; justify-content: center; align-items: center">
-                <img style="height: 73px;" src="${assetBasicPath}${asset}">
+                <img style="height: 73px;" src="${getRawAssetPath(asset)}">
             </div>
             <img src="https://mwidget.moberan.com/api/svg/text/info?text=${text}&textSize=${textSize}&textUnitYN=${textUnitYN}&textUnit=${textUnit}&textUnitSize=${textUnitSize}&subTextYN=${subTextYN}&subText=${subText}&subTextSize=${subTextSize}">
         </li>
     `;
-} 
+}
+
+function getRawAssetPath(assetName) {
+    return `https://github.com/MoberanCompany/moberan-homepage-config/blob/main/introduction/asset/info_ico/${assetName}?raw=true`
+}
 
 function generateCompanyInformationHtml(){
 
