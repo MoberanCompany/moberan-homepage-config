@@ -65,8 +65,8 @@ function generateInformation({text, textSize, textUnitYN, textUnit, textUnitSize
 
     return `
         <li>
-            <div style="display: flex; justify-content: center; align-items: center">
-                <img style="height: 73px;" src="${getRawAssetPath(asset)}">
+            <div style="display: flex; justify-content: center; align-items: center; height: 73px;">
+                <img src="${getRawAssetPath(asset)}">
             </div>
             <img src="https://mwidget.moberan.com/api/svg/text/info?text=${text}&textSize=${textSize}&textUnitYN=${textUnitYN}&textUnit=${textUnit}&textUnitSize=${textUnitSize}&subTextYN=${subTextYN}&subText=${subText}&subTextSize=${subTextSize}">
         </li>
