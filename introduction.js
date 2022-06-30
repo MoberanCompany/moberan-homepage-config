@@ -20,7 +20,7 @@ const datas = [
         "subTextSize": 17
     },
     {
-        "text": "%2B3700",
+        "text": "+3700",
         // +3700
         "textSize": 48,
         "textUnitYN": "N",
@@ -53,6 +53,11 @@ const datas = [
 ];
 
 function generateInformation({text, textSize, textUnitYN, textUnit, textUnitSize, subTextYN, subText, subTextSize}){
+
+    text = encodeURIComponent(text);
+    textUnit = encodeURIComponent(textUnit);
+    subText = encodeURIComponent(subText);
+
     return `
         <li>
             <img src="https://mwidget.moberan.com/api/svg/text/info?text=${text}&textSize=${textSize}&textUnitYN=${textUnitYN}&textUnit=${textUnit}&textUnitSize=${textUnitSize}&subTextYN=${subTextYN}&subText=${subText}&subTextSize=${subTextSize}">
