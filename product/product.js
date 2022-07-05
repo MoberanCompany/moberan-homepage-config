@@ -4,7 +4,7 @@ const datas = [
     {
         badgeYN: "Y",
         badgeText: "NAVER",
-        thumbNailImagePath: "",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/naver.jfif?raw=true",
         productTitle: "네이버",
         productContent: "네이버로 가는 지름길",
         linkBtnGroup: [
