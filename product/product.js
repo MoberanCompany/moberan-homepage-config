@@ -1,4 +1,4 @@
-// const BTN_CLASS_SUFFIX = "_btn";
+const BTN_CLASS_SUFFIX = "_btn";
 
 const datas = [
     {
@@ -49,7 +49,7 @@ const generateComponent = (data) => {
 const generateBtnGroup = (linkBtnGroup) => {
     linkBtnGroup.map((linkBtnObj)=>{
         return `
-            <a href="${linkBtnObj.link}" class="${type+"_btn"}">${linkBtnObj.text}</a>
+            <a href="${linkBtnObj.link}" class="${type+BTN_CLASS_SUFFIX}">${linkBtnObj.text}</a>
         `
     });
 
