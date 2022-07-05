@@ -9,7 +9,7 @@ const productDatas = [
         productContent: "인천대학교의 특허, 논문, R&D, 저서를 실시간으로 확인해 보세요. \n 산학매칭을 위해 대학교와 기업은 꾸준한 시간과 비용을 들여야 합니다. INU 산학 매칭을 통하면, 기업에 맞는 최신 정보만을 검색하고, 알림을 받아 볼 수 있습니다.",
         linkBtnGroup: [
             {
-                text: "웹",
+                text: "웹페이지",
                 link: "http://rndhub.moberan.com/",
                 type: "demo", // demo, down 순서 지켜야함
             },
