@@ -47,13 +47,11 @@ const generateComponent = (data) => {
 }
 
 const generateBtnGroup = (linkBtnGroup) => {
-    linkBtnGroup.map((linkBtnObj)=>{
+    return linkBtnGroup.map((linkBtnObj)=>{
         return `
             <a href="${linkBtnObj.link}" class="${linkBtnObj.type+BTN_CLASS_SUFFIX}">${linkBtnObj.text}</a>
         `
-    });
-
-    return linkBtnGroup.join('');
+    }).join('');
 }
 
 (function(){
