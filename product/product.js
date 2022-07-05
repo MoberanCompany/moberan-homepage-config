@@ -28,7 +28,7 @@ const productDatas = [
     {
         badgeYN: "Y",
         badgeText: "근태 관리",
-        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/rndhub.jpg?raw=true",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/blueDogLogo.png?raw=true",
         productTitle: "블루독(Bluedog)",
         productContent: "Easiset way to manage Company!\n추가적인 하드웨어 없이 한눈에 회사를 관리할수 있다면!",
         linkBtnGroup: [
