@@ -66,8 +66,23 @@ const historyData = {
         "인천대학교  R&D HUB 앱 서비스 개발",
         "강릉휙파인패스 모빌리티 서버 개발",
         "MBC SNS 관리 서비스 개발",
-        "MBC 총선 컨트롤러 개발",
+        "MBC 2020 총선 컨트롤러 개발",
         "Sylab 표적식별 AI 프로젝트 개발",
+    ],
+    "2021": [
+        "리얼툴스 부동산 실거래가 조회 사이트 개발",
+        "WebRTC 기반 TinyRTC Framework 출시",
+        "베이글랩스 통합 블루투스 모듈 개발",
+        "MoNFT Market Place 출시",
+        "Babidiba NFT Market Place 납품",        
+        "MBC FAST 삼성TV 연동 서비스 개발",
+        "Castware Here TinyRTC Frame 기반 앱 서비스 개발",
+    ],
+    "2022": [
+        "MBC 2022 대선 터치 개발",
+        "MBC 2022 지방선거 터치 및 컨트롤러 개발",
+        "CNI 리그 게임 관리 웹 개발",
+        "Aniverse NFT Staking System 개발", 
     ],
 };
 
@@ -103,3 +118,4 @@ function historyGenerate() {
         historyGenerate();
     });
 })();
+
