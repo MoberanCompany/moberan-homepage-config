@@ -2,19 +2,29 @@ const BTN_CLASS_SUFFIX = "_btn";
 
 const productDatas = [
     {
-        badgeYN: "Y",
-        badgeText: "NAVER",
-        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/naver.jfif?raw=true",
-        productTitle: "네이버",
-        productContent: "네이버로 가는 지름길",
+        badgeYN: "N",
+        badgeText: "",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/rndhub.jpg?raw=true",
+        productTitle: "INU 산학매칭",
+        productContent: "인천대학교의 특허, 논문, R&D, 저서를 실시간으로 확인해 보세요. \n 산학매칭을 위해 대학교와 기업은 꾸준한 시간과 비용을 들여야 합니다. INU 산학 매칭을 통하면, 기업에 맞는 최신 정보만을 검색하고, 알림을 받아 볼 수 있습니다.",
         linkBtnGroup: [
             {
-                text: "테스트",
-                link: "www.naver.com",
+                text: "웹",
+                link: "http://rndhub.moberan.com/",
                 type: "demo", // demo, down 순서 지켜야함
             },
+            {
+                text: "iOS",
+                link: "https://apps.apple.com/kr/app/inu-%EC%82%B0%ED%95%99%EB%A7%A4%EC%B9%AD/id1552852977?itsct=apps_box_link&itscg=30200",
+                type: "down", // demo, down 순서 지켜야함
+            },
+            {
+                text: "Android",
+                link: "https://play.google.com/store/apps/details?id=com.moberan.rndhub_flutter",
+                type: "down", // demo, down 순서 지켜야함
+            },
         ]
-    },
+    }
     // {
     //     badgeYN: "N",
     //     badgeText: "",
