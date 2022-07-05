@@ -1,6 +1,6 @@
 const BTN_CLASS_SUFFIX = "_btn";
 
-const datas = [
+const productDatas = [
     {
         badgeYN: "Y",
         badgeText: "NAVER",
@@ -60,7 +60,7 @@ const generateBtnGroup = (linkBtnGroup) => {
     document.addEventListener("DOMContentLoaded", () => {
         const productInfoContainer = document.querySelector("#section03 ul");
         
-        const generatedHTML = datas.map((data)=>{
+        const generatedHTML = productDatas.map((data)=>{
             return generateComponent(data);
         }).join('');
 
