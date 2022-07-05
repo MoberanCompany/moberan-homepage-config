@@ -59,7 +59,7 @@ const generateComponent = (data) => {
 const generateBtnGroup = (linkBtnGroup) => {
     return linkBtnGroup.map((linkBtnObj)=>{
         return `
-            <a href="${linkBtnObj.link}" class="${linkBtnObj.type+BTN_CLASS_SUFFIX}">${linkBtnObj.text}</a>
+            <a href="${linkBtnObj.link}" target="_blank" class="${linkBtnObj.type+BTN_CLASS_SUFFIX}">${linkBtnObj.text}</a>
         `
     }).join('');
 }
