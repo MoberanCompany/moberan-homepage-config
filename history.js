@@ -32,7 +32,7 @@ const historyData = {
         "MBN Top Weather 납품",
         "HTML5 기반 FMS 솔루션 출시, 세종로 호텔 납품",
         "MBC 광고총량제 모니터 프로그램 납품",
-        "인포스립트 티켓포스(키오스크) 개발",
+        "인포스립트 티켓포스(KIOSK) 개발",
         "HTML5 기반 MBC DAMS 개발",
         "HTML5 기반 MBC 통합유통정보 개발",
     ],
@@ -70,7 +70,7 @@ const historyData = {
         "Sylab 표적식별 AI 프로젝트 개발",
     ],
     "2021": [
-        "리얼툴스 아파트 실거래가 조회 사이트 개발",
+        "리얼툴스 APT 실거래가 조회 사이트 개발",
         "WebRTC 기반 TinyRTC Framework 출시",
         "베이글랩스 통합 블루투스 모듈 개발",
         "MoNFT Market Place 출시",
