@@ -31,7 +31,7 @@ const peopleData = [
         "name": "주해성",
         "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/haesung.jfif?raw=true", 
         "role": "Web Application",
-        "bio":"사랑합니다 고객님❤",
+        "bio":"깍이고 깨질수록 더욱 세지고 강해지는 돌덩이",
         "link":"https://github.com/haesungjoo"
     },
     {
