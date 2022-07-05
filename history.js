@@ -70,7 +70,7 @@ const historyData = {
         "Sylab 표적식별 AI 프로젝트 개발",
     ],
     "2021": [
-        "리얼툴스 아파트실거래가 조회 사이트 개발",
+        "리얼툴스 아파트 실거래가 조회 사이트 개발",
         "WebRTC 기반 TinyRTC Framework 출시",
         "베이글랩스 통합 블루투스 모듈 개발",
         "MoNFT Market Place 출시",
