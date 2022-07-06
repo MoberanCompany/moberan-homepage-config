@@ -1,4 +1,5 @@
 const BTN_CLASS_SUFFIX = "_btn";
+const alwaysShowCount = 3;
 
 const productDatas = [
     
@@ -23,6 +24,14 @@ const productDatas = [
         thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/topWeather.png?raw=true",
         productTitle: "topWeather",
         productContent: "topWeather는 다양한 기상 데이터를 방송에 활용하여 기상정보 그래픽을 생성하는 시스템으로 MBC, SBS등 다수의 방송사에서 사용하고 있습니다.\n천리안 위성 데이터, 레이더 데이터, 관측데이터, 예측데이터, 태풍 데이터 등 방송에서 사용하는 다양한 형식의 기상 그래픽을 사용자가 쉽고 빠르게 제작할 수 있습니다.",  
+        linkBtnGroup: []
+    },
+    {
+        badgeYN: "Y",
+        badgeText: "5개 프로젝트",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/NFTMarket.jpg?raw=true",
+        productTitle: "NFT 서비스 개발",
+        productContent: "블록체인 메인넷 개발 1건, NFT 마켓 3건, Dapp 개발 1건의 경험을 토대로 블록체인 및 NFT 관련 서비스 개발에 적극 참여 가능합니다.",
         linkBtnGroup: []
     },
     {
@@ -65,15 +74,18 @@ const productDatas = [
     }
 ];
 
-const generateComponent = (data) => {
-
+const generateComponent = (data, index) => {
+    const isHidden = index >= alwaysShowCount;
     const isButtonEmpty = data.linkBtnGroup.length == 0;
+    const conainerAttribute = isHidden ? `class="blind_li"` : `data-aos="fade-right" data-aos-offset="-400" data-aos-delay="200" data-aos-duration="800" data-aos-anchor-placement="top-center"`
+    
     const txtMaxLine = isButtonEmpty ? 5 : 3;
-    newLineParsedContent = data.productContent.replaceAll("\n", "<br>");
     const overrideTxtStyle = `-webkit-line-clamp: ${txtMaxLine} !important;`
+    
+    newLineParsedContent = data.productContent.replaceAll("\n", "<br>");
 
     return `
-    <li data-aos="fade-right" data-aos-offset="-400" data-aos-delay="200" data-aos-duration="800" data-aos-anchor-placement="top-center">
+    <li ${conainerAttribute} >
         ${data.badgeYN == "Y" ? `<div class="product_li_thumb" style="background-image: url('${data.thumbNailImagePath}'); background-size: cover; background-position: center;"><span>${data.badgeText}</span></div>`: `<div class="product_li_thumb" style="background-image: url('${data.thumbNailImagePath}'); background-size: cover; background-position: center;"></div>`}
         <div class="product_li_txt">
             <h3>${data.productTitle}</h3>
@@ -98,8 +110,12 @@ const generateBtnGroup = (linkBtnGroup) => {
     document.addEventListener("DOMContentLoaded", () => {
         const productInfoContainer = document.querySelector("#section03 ul");
         
-        const generatedHTML = productDatas.map((data)=>{
-            return generateComponent(data);
+        if(data.length < alwaysShowCount){
+            document.querySelector('.arrow_ct').remove();
+        }
+        
+        const generatedHTML = productDatas.map((data, index)=>{
+            return generateComponent(data, index);
         }).join('');
 
         productInfoContainer.innerHTML = generatedHTML;
