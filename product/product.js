@@ -34,6 +34,21 @@ const productDatas = [
         productContent: "\"블록체인 메인넷 개발 1건, NFT 마켓 3건, Dapp 개발 1건\"의 경험을 토대로\n블록체인 및 NFT 관련 서비스 개발에 적극 참여 가능합니다.",
         linkBtnGroup: []
     },
+
+    {
+        badgeYN: "Y",
+        badgeText: "근태 관리",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/blueDogLogo.png?raw=true",
+        productTitle: "블루독(Bluedog)",
+        productContent: "Easiset way to manage Company!\n추가적인 하드웨어 없이 한눈에 회사를 관리할수 있다면!",
+        linkBtnGroup: [
+            {
+                text: "웹페이지",
+                link: "http://bluedog.moberan.com/#/",
+                type: "demo", // demo, down 순서 지켜야함
+            },
+        ]
+    },
     {
         badgeYN: "N",
         badgeText: "",
@@ -55,20 +70,6 @@ const productDatas = [
                 text: "Android",
                 link: "https://play.google.com/store/apps/details?id=com.moberan.rndhub_flutter",
                 type: "down", // demo, down 순서 지켜야함
-            },
-        ]
-    },
-    {
-        badgeYN: "Y",
-        badgeText: "근태 관리",
-        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/blueDogLogo.png?raw=true",
-        productTitle: "블루독(Bluedog)",
-        productContent: "Easiset way to manage Company!\n추가적인 하드웨어 없이 한눈에 회사를 관리할수 있다면!",
-        linkBtnGroup: [
-            {
-                text: "웹페이지",
-                link: "http://bluedog.moberan.com/#/",
-                type: "demo", // demo, down 순서 지켜야함
             },
         ]
     }
