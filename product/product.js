@@ -29,9 +29,9 @@ const productDatas = [
     {
         badgeYN: "Y",
         badgeText: "5개 프로젝트",
-        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/NFTMarket.jpg?raw=true",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/NFTMarket.png?raw=true",
         productTitle: "NFT 서비스 개발",
-        productContent: "블록체인 메인넷 개발 1건, NFT 마켓 3건, Dapp 개발 1건의 경험을 토대로 블록체인 및 NFT 관련 서비스 개발에 적극 참여 가능합니다.",
+        productContent: "\"블록체인 메인넷 개발 1건, NFT 마켓 3건, Dapp 개발 1건\"의 경험을 토대로\n블록체인 및 NFT 관련 서비스 개발에 적극 참여 가능합니다.",
         linkBtnGroup: []
     },
     {
