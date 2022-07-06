@@ -110,7 +110,7 @@ const generateBtnGroup = (linkBtnGroup) => {
     document.addEventListener("DOMContentLoaded", () => {
         const productInfoContainer = document.querySelector("#section03 ul");
         
-        if(data.length < alwaysShowCount){
+        if(productDatas.length < alwaysShowCount){
             document.querySelector('.arrow_ct').remove();
         }
         
