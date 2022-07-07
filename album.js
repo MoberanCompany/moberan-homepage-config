@@ -15,7 +15,7 @@ function syncXhr(url){
 }
 
 function wrapCors(url){
-    return `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+    return `https://cors.bbear.workers.dev/?${encodeURIComponent(url)}`;
 }
 
 function fetchPhotoList(){
