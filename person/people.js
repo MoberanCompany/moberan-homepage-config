@@ -9,8 +9,8 @@ const peopleData = [
     {
         "name": "김민희",
         "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/minn.jpg?raw=true", 
-        "role": "Excel, HWP",
-        "bio":"제주살이 화이팅",
+        "role": "HR, Accounting",
+        "bio":"Beautiful tomorrow",
         "link":""
     },
     {
