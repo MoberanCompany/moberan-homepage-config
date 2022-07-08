@@ -22,15 +22,7 @@ const datas = [
         "asset": "document.png"
     },
     {
-        "text": "+3700",
-        // +3700
-        "textSize": 48,
-        "textUnitYN": "N",
-        "textUnit": "",
-        "textUnitSize": 16,
-        "subTextYN": "Y",
-        "subText": "회사 창립",
-        "subTextSize": 17,
+        "url": "https://mwidget.moberan.com/api/widget/bb967cac-aef5-4cbe-8352-77c92ebdab4a",
         "asset": "company.png"
     },
     {
@@ -57,20 +49,32 @@ const datas = [
     },
 ];
 
-function generateInformation({text, textSize, textUnitYN, textUnit, textUnitSize, subTextYN, subText, subTextSize, asset}){
+function generateInformation({url, text, textSize, textUnitYN, textUnit, textUnitSize, subTextYN, subText, subTextSize, asset}){
 
-    text = encodeURIComponent(text);
-    textUnit = encodeURIComponent(textUnit);
-    subText = encodeURIComponent(subText);
+    if(url != null) {
+       return `
+            <li>
+                <div style="display: flex; justify-content: center; align-items: center; height: 73px;">
+                    <img src="${getRawAssetPath(asset)}">
+                </div>
+                <img src="${url}">
+            </li>
+        `;
+    }
+    else {
+        text = encodeURIComponent(text);
+        textUnit = encodeURIComponent(textUnit);
+        subText = encodeURIComponent(subText);
 
-    return `
-        <li>
-            <div style="display: flex; justify-content: center; align-items: center; height: 73px;">
-                <img src="${getRawAssetPath(asset)}">
-            </div>
-            <img src="https://mwidget.moberan.com/api/svg/text/info?text=${text}&textSize=${textSize}&textUnitYN=${textUnitYN}&textUnit=${textUnit}&textUnitSize=${textUnitSize}&subTextYN=${subTextYN}&subText=${subText}&subTextSize=${subTextSize}">
-        </li>
-    `;
+        return `
+            <li>
+                <div style="display: flex; justify-content: center; align-items: center; height: 73px;">
+                    <img src="${getRawAssetPath(asset)}">
+                </div>
+                <img src="https://mwidget.moberan.com/api/svg/text/info?text=${text}&textSize=${textSize}&textUnitYN=${textUnitYN}&textUnit=${textUnit}&textUnitSize=${textUnitSize}&subTextYN=${subTextYN}&subText=${subText}&subTextSize=${subTextSize}">
+            </li>
+        `;
+    }
 }
 
 function getRawAssetPath(assetName) {
