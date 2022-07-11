@@ -33,7 +33,7 @@ function processAlbum(url){
                     // adaptiveHeight: true,
                     // centerMode: true,
                     slidesToShow: 8, // lazy load시 넉넉하게 선언 필수
-                    // slidesToScroll: 3,
+                    slidesToScroll: 1,
                     // responsive: [ // 반응형 웹 구현 옵션
                     //     {
                     //         breakpoint: 960, //화면 사이즈 960px
@@ -65,30 +65,6 @@ function makeGalleryImage(id){
 function wrapCors(url){
     return `https://cors.bbear.workers.dev/?${encodeURIComponent(url)}`;
 }
-
-// (function () {
-//     document.addEventListener("DOMContentLoaded", () => {
-
-//         const photoCount = 500;
-
-//         processAlbum(
-//             wrapCors(`https://photo.moberan.com/photo/webapi/photo.php?version=1&method=list&limit=${photoCount}&offset=0&api=SYNO.PhotoStation.Photo&type=photo&sort_by=takendate&sort_direction=desc`)
-//         );
-
-//     });
-// })();
-
-// (function(){
-
-    
-// }())
-// $(window).load(()=>{
-//     const photoCount = 500;
-
-//     processAlbum(
-//         wrapCors(`https://photo.moberan.com/photo/webapi/photo.php?version=1&method=list&limit=${photoCount}&offset=0&api=SYNO.PhotoStation.Photo&type=photo&sort_by=takendate&sort_direction=desc`)
-//     );
-// })
 
 window.onload = ()=> {
     
