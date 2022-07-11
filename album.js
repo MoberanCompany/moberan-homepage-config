@@ -1,6 +1,6 @@
 function makeGalleryImage(id){
     const url = wrapCors(`https://photo.moberan.com/photo/webapi/thumb.php?api=SYNO.PhotoStation.Thumb&method=get&version=1&size=large&id=${id}`)
-    return `<div><img data-lazy="${url}" /></div>`;
+    return `<div><img loading="lazy" data-lazy="${url}" /></div>`;
 }
 
 function syncXhr(url){
