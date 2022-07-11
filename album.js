@@ -1,6 +1,11 @@
 function makeGalleryImage(id){
     const url = wrapCors(`https://photo.moberan.com/photo/webapi/thumb.php?api=SYNO.PhotoStation.Thumb&method=get&version=1&size=large&id=${id}`)
-    return `<div><img  data-lazy="${url}" /></div>`;
+    /**
+     * 설명
+     * - 왜인지는 모르겠으나, slick 에서 제공하는 `lazyLoad` 를 사용하게되면 resource 를 두번 호출하게 된다.
+     */
+    // return `<div><img src="${url}" /></div>`;
+    return `<div><img loading="lazy" data-lazy="${url}" /></div>`;
 }
 
 function syncXhr(url){
