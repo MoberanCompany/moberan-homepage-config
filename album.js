@@ -59,7 +59,7 @@ function processAlbum(url){
 
 function makeGalleryImage(id){
     const url = wrapCors(`https://photo.moberan.com/photo/webapi/thumb.php?api=SYNO.PhotoStation.Thumb&method=get&version=1&size=large&id=${id}`)
-    return `<div><img data-lazy="${url}" /></div>`;
+    return `<div><img style="border-radius: 15px;" data-lazy="${url}" /></div>`;
 }
 
 function wrapCors(url){
