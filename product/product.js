@@ -1,5 +1,5 @@
 const BTN_CLASS_SUFFIX = "_btn";
-const alwaysShowCount = 3;
+const alwaysShowCount = 5;
 
 const productDatas = [
     
