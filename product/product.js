@@ -1,5 +1,5 @@
 const BTN_CLASS_SUFFIX = "_btn";
-const alwaysShowCount = 3;
+const alwaysShowCount = 5;
 
 const productDatas = [
     
@@ -120,7 +120,7 @@ const generateBtnGroup = (linkBtnGroup) => {
     document.addEventListener("DOMContentLoaded", () => {
         const productInfoContainer = document.querySelector("#section03 ul");
         
-        if(productDatas.length < alwaysShowCount){
+        if(productDatas.length <= alwaysShowCount){
             document.querySelector('.arrow_ct').remove();
         }
         
