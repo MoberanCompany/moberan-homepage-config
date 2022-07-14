@@ -78,7 +78,7 @@ const productDatas = [
         badgeText: "",
         thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/uremote.jpg?raw=true",
         productTitle: "uRemote",
-        productContent: "uRmote는 Sony Rs-422 Protocol을 통해 Sony Remote Controller 장비들과 같이 방송 장비들을 컨트롤하는 프로그램 입니다. 최대 4대까지 장비를 지원하며, \"In and Out -point entry\", \"+ and - Trim\", \"Auto Edit\", \"Preview/Reveiw\", \"Go To\", \"All Stop\" 등의 다양한 편집기능,\n어셈블 및 인서트 모드를 지원합니다.",
+        productContent: "uRmote는 Sony Rs-422 Protocol을 통해 Sony Remote Controller 장비들과 같이\n방송 장비들을 컨트롤하는 프로그램 입니다.\n최대 4대까지 장비를 지원하며, \"In and Out -point entry\", \"+ and - Trim\", \"Auto Edit\", \"Preview/Reveiw\", \"Go To\", \"All Stop\" 등의 다양한 편집기능,\n어셈블 및 인서트 모드를 지원합니다.",
         linkBtnGroup: [
         ]
     }
