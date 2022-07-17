@@ -1,4 +1,11 @@
-const data = {
+/**
+ * 설명
+ * - 프로젝트 스펙트럼 밑에 위치한 piechart 를 그려줍니다.
+ * 
+ * 특이사항
+ * - 
+ */
+const pieChartData = {
     "values": [20, 10, 8, 32, 4, 6, 3, 17],
     "names": ["20%", "10%", "8%", "32%", "4%", "6%", "3%", "17%"],
     "colors": [9118463,
@@ -16,11 +23,23 @@ async function createPieChart(){
     const res = await fetch("https://mwidget.moberan.com/api/svg/preview/pieChart", {
         method: "post",
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify(data)
+        body: JSON.stringify(pieChartData)
     });
-    const resData = await res.text();
-
+    // const resData = await res.text();
+    const resData = await res.blob();
+    
     return resData;
+}
+
+async function pieChartToDataURL(blobData){
+    const reader = new FileReader();
+    await new Promise((resolve, reject) => {
+        reader.onload = resolve;
+        reader.onerror = reject;
+        reader.readAsDataURL(blobData);
+    })
+
+    return reader.result;
 }
 
 (function(){
@@ -28,9 +47,12 @@ async function createPieChart(){
 
         const pieChartContainerDOM = document.querySelector("#section02 .chart-left .pie-chart1");
 
-        const pieChartDOM = await createPieChart();
+        const resPieChartBlob = await createPieChart();
+        const dataURL = pieChartToDataURL(resPieChartBlob);
 
-        pieChartContainerDOM.innerHTML = pieChartDOM;
+        const newImg = `<img src=${dataURL}/>`
+
+        pieChartContainerDOM.innerHTML = newImg;
 
     })
 }())
