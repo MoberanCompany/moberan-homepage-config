@@ -48,7 +48,7 @@ async function pieChartToDataURL(blobData){
         const pieChartContainerDOM = document.querySelector("#section02 .chart-left .pie-chart1");
 
         const resPieChartBlob = await createPieChart();
-        const dataURL = pieChartToDataURL(resPieChartBlob);
+        const dataURL = await pieChartToDataURL(resPieChartBlob);
 
         const newImg = `<img src=${dataURL}/>`
 
