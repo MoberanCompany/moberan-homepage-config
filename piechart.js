@@ -56,3 +56,34 @@ async function pieChartToDataURL(blobData){
 
     })
 }())
+
+/**
+ * 설명
+ * - svg tag 리턴 방법입니다.
+ * 
+ * 테스트 방법
+ * - 위 iife 주석처리하고 아래 코드 주석 푸시면 됩니다.
+ */
+// async function createPieChart2(){
+//     const res = await fetch("https://mwidget.moberan.com/api/svg/preview/pieChart", {
+//         method: "post",
+//         headers: {"Content-Type": "application/json"},
+//         body: JSON.stringify(pieChartData)
+//     });
+//     const resData = await res.text();
+    
+    
+//     return resData;
+// }
+
+// (function(){
+//     document.addEventListener("DOMContentLoaded", async ()=>{
+
+//         const pieChartContainerDOM = document.querySelector("#section02 .chart-left .pie-chart1");
+
+//         const resPieChartDOM = await createPieChart2();
+        
+//         pieChartContainerDOM.innerHTML = resPieChartDOM;
+
+//     })
+// }())
