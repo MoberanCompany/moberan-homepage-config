@@ -8,7 +8,7 @@ const datas = [
         "asset": "document.png"
     },
     {
-        "url": "https://mwidget.moberan.com/api/widget/51ebe850-e720-4985-b603-ceaddac337a2",
+        "url": "https://mwidget.moberan.com/api/widget/9c81b828-cbb9-41eb-8fa3-9b39757e3d6e",
         "asset": "company.png"
     },
     {
