@@ -50,7 +50,7 @@ async function pieChartToDataURL(blobData){
         const resPieChartBlob = await createPieChart();
         const dataURL = await pieChartToDataURL(resPieChartBlob);
 
-        const newImg = `<img src="${dataURL}">`
+        const newImg = `<img src="${dataURL}" style="height: 100%;">`
 
         pieChartContainerDOM.innerHTML = newImg;
 
