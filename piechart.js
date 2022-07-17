@@ -30,7 +30,7 @@ async function createPieChart(){
 
         const pieChartDOM = await createPieChart();
 
-        pieChartContainerDOM.innerHTML(pieChartDOM);
+        pieChartContainerDOM.innerHTML = pieChartDOM;
 
     })
 }())
