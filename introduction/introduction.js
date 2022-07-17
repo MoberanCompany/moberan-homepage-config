@@ -1,24 +1,10 @@
 const datas = [
     {
-        "text": "5",
-        "textSize": 48,
-        "textUnitYN": "Y",
-        "textUnit": "개",
-        "textUnitSize": 16,
-        "subTextYN": "Y",
-        "subText": "방송사 납품",
-        "subTextSize": 17,
+        "url": "https://mwidget.moberan.com/api/widget/f5f7424d-4fce-4a74-8a5d-c650930232a8",
         "asset": "broadcast.png"
     },
     {
-        "text": "11",
-        "textSize": 48,
-        "textUnitYN": "Y",
-        "textUnit": "개",
-        "textUnitSize": 16,
-        "subTextYN": "Y",
-        "subText": "2022년 프로젝트 완료",
-        "subTextSize": 17,
+        "url": "https://mwidget.moberan.com/api/widget/422b2aa4-c979-4c45-8a35-2964fad083df",
         "asset": "document.png"
     },
     {
@@ -26,25 +12,11 @@ const datas = [
         "asset": "company.png"
     },
     {
-        "text": "5",
-        "textSize": 48,
-        "textUnitYN": "Y",
-        "textUnit": "회",
-        "textUnitSize": 16,
-        "subTextYN": "Y",
-        "subText": "2022년 여행",
-        "subTextSize": 17,
+        "url": "https://mwidget.moberan.com/api/widget/10a445c3-9939-4406-8dac-f73ec66459f2",
         "asset": "airplane.png"
     },
     {
-        "text": "20",
-        "textSize": 48,
-        "textUnitYN": "Y",
-        "textUnit": "건",
-        "textUnitSize": 16,
-        "subTextYN": "Y",
-        "subText": "Flutter 프로젝트",
-        "subTextSize": 17,
+        "url": "https://mwidget.moberan.com/api/widget/23b97bc9-c346-46fe-81f3-52dee99035a5",
         "asset": "idea.png"
     },
 ];
