@@ -22,7 +22,7 @@ const datas = [
         "asset": "document.png"
     },
     {
-        "url": "https://mwidget.moberan.com/api/widget/bb967cac-aef5-4cbe-8352-77c92ebdab4a",
+        "url": "https://mwidget.moberan.com/api/widget/51ebe850-e720-4985-b603-ceaddac337a2",
         "asset": "company.png"
     },
     {
