@@ -81,6 +81,20 @@ const productDatas = [
         productContent: "uRmote는 Sony Rs-422 Protocol을 통해 Sony Remote Controller 장비들과 같이\n방송 장비들을 컨트롤하는 프로그램 입니다.\n최대 4대까지 장비를 지원하며, \"In and Out -point entry\", \"+ and - Trim\", \"Auto Edit\", \"Preview/Reveiw\", \"Go To\", \"All Stop\" 등의 다양한 편집기능,\n어셈블 및 인서트 모드를 지원합니다.",
         linkBtnGroup: [
         ]
+    },
+    {
+        badgeYN: "N",
+        badgeText: "",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/MWidget.png?raw=true",
+        productTitle: "M Widget",
+        productContent: "M Widget은 SVG 기반의 이미지 위젯을 생성하는 서비스로서 웹사이트, 블로그, 노션 등에 손쉬운 디자인, 위젯 요소를 추가하고 관리 할 수 있는 서비스입니다.",  
+        linkBtnGroup: [
+            {
+                text: "웹페이지",
+                link: "https://m-widget.moberan.com/",
+                type: "demo"
+            },
+        ]
     }
 ];
 
