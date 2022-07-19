@@ -43,7 +43,7 @@ const peopleData = [
     },
     {
         "name": "송준영",
-        "image":"https://avatars.githubusercontent.com/u/35232655", 
+        "image":"https://avatars.githubusercontent.com/u/35232655?raw=true", 
         "role": "Web Application",
         "bio":"저를 사람이라고 생각할 수 있지만 사실 인공지능입니다.",
         "link":"https://github.com/HamBP"
