@@ -47,6 +47,13 @@ const peopleData = [
         "role": "Web Application",
         "bio":"저를 사람이라고 생각할 수 있지만 사실 인공지능입니다.",
         "link":"https://github.com/HamBP"
+    },
+    {
+        "name": "김수민",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/sumin.jpg?raw=true", 
+        "role": "Web Application",
+        "bio": "영원히 대학생 하고싶어요",
+        "link":"https://github.com/milk717"
     }
 ];
 
