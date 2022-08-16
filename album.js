@@ -71,6 +71,6 @@ window.onload = ()=> {
     const photoCount = 500;
 
     processAlbum(
-        wrapCors(`https://photo.moberan.com/photo/webapi/photo.php?version=1&method=list&limit=${photoCount}&offset=0&api=SYNO.PhotoStation.Photo&type=photo&sort_by=takendate&sort_direction=desc`)
+        wrapCors(`https://photo.moberan.com/photo/webapi/photo.php?version=1&method=list&limit=${photoCount}&offset=0&api=SYNO.PhotoStation.Photo&type=photo&sort_by=createdate&sort_direction=desc`)
     );
 }
