@@ -49,11 +49,11 @@ const peopleData = [
         "link":"https://github.com/HamBP"
     },
     {
-        "name": "김수민",
-        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/sumin.jpg?raw=true", 
+        "name": "이범희",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/Leebumhee.jpeg?raw=true", 
         "role": "Web Application",
-        "bio": "영원히 대학생 하고싶어요",
-        "link":"https://github.com/milk717"
+        "bio": "개발바닥부터 머리까지",
+        "link":"https://github.com/dlqjagml"
     }
 ];
 
