@@ -26,7 +26,7 @@ const productDatas = [
         productContent: "topWeather는 다양한 기상 데이터를 방송에 활용하여 기상정보 그래픽을 생성하는 시스템으로 MBC, SBS등 다수의 방송사에서 사용하고 있습니다.\n천리안 위성 데이터, 레이더 데이터, 관측데이터, 예측데이터, 태풍 데이터 등 방송에서 사용하는 다양한 형식의 기상 그래픽을 사용자가 쉽고 빠르게 제작할 수 있습니다.",  
         linkBtnGroup: [
             {
-                "text": "환경부장관상",
+                "text": "기상산업대상 환경부장관상",
                 "link": "http://www.kcmie.com/contents.php?con_id=award#.info:~:text=%E3%88%9C%EB%AA%A8%EB%B2%A0%EB%9E%80,Top%20Weather(%ED%83%91%EC%9B%A8%EB%8D%94)",
                 "type": "demo",
             }
