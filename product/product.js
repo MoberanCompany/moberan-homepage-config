@@ -107,7 +107,7 @@ const productDatas = [
 const generateComponent = (data, index) => {
     const isHidden = index >= alwaysShowCount;
     const isButtonEmpty = data.linkBtnGroup.length == 0;
-    const conainerAttribute = isHidden ? `class="blind_li"` : `data-aos="fade-right" data-aos-offset="-400" data-aos-delay="200" data-aos-duration="800" data-aos-anchor-placement="top-center"`
+    const conainerAttribute = isHidden ? `class="product_card blind_li"` : `class="product_card" data-aos="fade-right" data-aos-offset="-400" data-aos-delay="200" data-aos-duration="800" data-aos-anchor-placement="top-center"`
     
     const txtMaxLine = isButtonEmpty ? 5 : 3;
     const overrideTxtStyle = `-webkit-line-clamp: ${txtMaxLine} !important;`
