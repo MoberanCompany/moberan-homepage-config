@@ -105,7 +105,7 @@ const productDatas = [
     {
         badgeYN: "N",
         badgeText: "",
-        thumbNailImagePath: "",
+        thumbNailImagePath: "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/product/asset/moFMS.png?raw=true",
         productTitle: "MoFMS",
         productContent: "MoFMS 는 시설물 관리를 업무를위한 기능을 제공하며 작업을 편리하게 할 수 있도록 도와줍니다. 기존시스템과 연계하여커스트마이징 가능합니다.",  
         linkBtnGroup: [
