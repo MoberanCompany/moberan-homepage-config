@@ -35,13 +35,6 @@ const peopleData = [
         "link":"https://github.com/haesungjoo"
     },
     {
-        "name": "왕재현",
-        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/jaehyun.png?raw=true", 
-        "role": "Windows/Web Application",
-        "bio":"먹이를 주지 마시오",
-        "link":"https://github.com/aresmesboy"
-    },
-    {
         "name": "송준영",
         "image":"https://avatars.githubusercontent.com/u/35232655?raw=true", 
         "role": "Web Application",
