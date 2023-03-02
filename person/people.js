@@ -40,6 +40,13 @@ const peopleData = [
         "role": "Web Application",
         "bio":"저를 사람이라고 생각할 수 있지만 사실 인공지능입니다.",
         "link":"https://github.com/HamBP"
+    },
+    {
+        "name": "김우중",
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/woojoong.jpg?raaw=ture", 
+        "role": "Web Application",
+        "bio":"몸이 좋아서 머리가 덜 고생하는 사람입니다.",
+        "link":"https://github.com/Identityless"
     }
 ];
 
