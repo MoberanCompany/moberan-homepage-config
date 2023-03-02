@@ -82,7 +82,13 @@ const historyData = {
         "MBC 2022 대선 터치 개발",
         "MBC 2022 지방선거 터치 및 컨트롤러 개발",
         "CNI 리그 게임 관리 웹 개발",
+        "TV 조선 topWeather 납품",
         "Aniverse NFT Staking System 개발", 
+        "WAVVE 계정관리 솔루션 웹 개발",
+        "KFA 경기영상아카이브 웹 개발",
+        "메모리얼 메타버스 NFT Market Place 납품",
+        "MBC 송출 소재 외부 입고 시스 개발",
+        "JTBC CCTV 스트리밍 및 송출관리 웹 개발"
     ],
 };
 
