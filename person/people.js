@@ -43,7 +43,7 @@ const peopleData = [
     },
     {
         "name": "김우중",
-        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/woojoong.jpg?raaw=ture", 
+        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/woojoong.jpg?raw=ture", 
         "role": "Web Application",
         "bio":"몸이 좋아서 머리가 덜 고생하는 사람입니다.",
         "link":"https://github.com/Identityless"
