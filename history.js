@@ -79,6 +79,8 @@ const historyData = {
         "Castware Here TinyRTC Frame 기반 앱 서비스 개발",
     ],
     "2022": [
+        "MBC ClipBank3 유지보수 체결",
+        "MBC C&I와 MBC 기상센터 천리안 위성영상 출력 프로그램 Baldur3 고도화 및 유지보수 (Windows, C++)",
         "MBC 2022 대선 터치 개발",
         "MBC 2022 지방선거 터치 및 컨트롤러 개발",
         "CNI 리그 게임 관리 웹 개발",
