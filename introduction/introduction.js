@@ -74,7 +74,7 @@ function generateCompanyInformationHtml(){
 (function(){
     document.addEventListener("DOMContentLoaded", ()=>{
         const companyInformationHtml = generateCompanyInformationHtml();
-        const informationDOM = document.querySelector("#section01 .about .about_list");
+        const informationDOM = document.querySelector(".about .about_list");
 
         informationDOM.innerHTML = companyInformationHtml;
     });
