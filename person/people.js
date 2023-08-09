@@ -40,13 +40,6 @@ const peopleData = [
         "role": "Web Application",
         "bio": "갓생 살려다가 갓까스로 살아남고 있어요.",
         "link": "https://blog.kimwash.xyz"
-    },
-    {
-        "name": "김우중",
-        "image":"https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/woojoong.jpg?raw=ture", 
-        "role": "Intern, Backend",
-        "bio":"몸이 좋아서 머리가 덜 고생하고 싶은 사람입니다.",
-        "link":"https://github.com/Identityless"
     }
 ];
 
