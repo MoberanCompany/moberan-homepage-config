@@ -40,6 +40,13 @@ const peopleData = [
         "role": "Web Application",
         "bio": "갓생 살려다가 갓까스로 살아남고 있어요.",
         "link": "https://blog.kimwash.xyz"
+    },
+    {
+        "name": "조새벽",
+        "image": "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/saebyeok.jpg?raw=ture", 
+        "role": "Mobile Application",
+        "bio": "중요한건 꺾였는데도 그냥 하는 마음",
+        "link": "https://github.com/chochoq"
     }
 ];
 
