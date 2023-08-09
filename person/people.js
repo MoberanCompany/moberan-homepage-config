@@ -36,7 +36,7 @@ const peopleData = [
     },
     {
         "name": "최경민",
-        "image": "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/kyoungmin.jpeg?raw=true",
+        "image": "https://avatars.githubusercontent.com/u/47469682?v=4",
         "role": "Web Application",
         "bio": "갓생 살려다가 갓까스로 살아남고 있어요.",
         "link": "https://blog.kimwash.xyz"
