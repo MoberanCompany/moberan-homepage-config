@@ -22,7 +22,7 @@ const peopleData = [
     },
     {
         "name": "손민재",
-        "image": "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/minjae.jfif?raw=true",
+        "image": "https://github.com/bungabear.png",
         "role": "Mobile Application",
         "bio": "전문가의 손길로 사용성 좋은 편리한 앱을 만들어 드리겠습니다!",
         "link": "https://github.com/bungabear"
