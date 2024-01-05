@@ -75,7 +75,7 @@ const historyData = {
         "베이글랩스 통합 블루투스 모듈 개발",
         "MoNFT Market Place 출시",
         "Babidiba NFT Market Place 납품",        
-        "MBC FAST 삼성TV 연동 서비스 개발",
+        "MBC FAST 삼성TV Elemental Live 연동 서비스 개발",
         "Castware Here TinyRTC Frame 기반 앱 서비스 개발",
     ],
     "2022": [
@@ -91,6 +91,18 @@ const historyData = {
         "메모리얼 메타버스 NFT Market Place 납품",
         "MBC 송출 소재 외부 입고 시스 개발",
         "JTBC CCTV 스트리밍 및 송출관리 웹 개발"
+    ],
+    "2023": [
+        "MBC ClipBank3 유지보수 체결",
+        "MBC C&I와 MBC 기상센터 천리안 위성영상 출력 프로그램 Baldur3 고도화",
+        "CompePrice e-PriceTag 서버, 앱 ver2 개발",
+        "W Channel 우리그룹 웹 방송 시스템 개발",
+        "건설기술연구원 BEMS 플랫폼 연구 과제 수행",
+        "JTBC FAST 삼성TV Elemental Live 연동 서비스 개발",
+        "하이유 하이잡 NFT Market Place 납품",
+        "휙써클 Quest, MystiBox 개발",
+        "Castware Here TinyRTC Frame 기반 앱 서비스 고도화",
+        "KFA 경기영상아카이브 웹 고도화",
     ],
 };
 
