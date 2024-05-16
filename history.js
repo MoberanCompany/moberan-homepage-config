@@ -104,6 +104,10 @@ const historyData = {
         "Castware Here TinyRTC Frame 기반 앱 서비스 고도화",
         "KFA 경기영상아카이브 웹 고도화",
     ],
+    "2024": [
+        "MBC 2024 총선 컨트롤러 개발",
+        "YTN 엘리멘탈 라이브 컨트롤러 개발",
+    ],
 };
 
 function createYearHistory(isLeft, year, datas){
