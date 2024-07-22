@@ -34,6 +34,13 @@ const peopleData = [
         "bio": "뭐든 꼼꼼히 보려 노력합니다.",
         "link": "https://github.com/haesungjoo"
     },
+    {
+        "name": "이주원",
+        "image": "https://github.com/juser0.png",
+        "role": "Web Application",
+        "bio": "효율적인 코드로 사용성있는 앱을 만들기 위해 노력합니다.",
+        "link": "https://github.com/juser0"
+    },
 ];
 
 function peopleGenerate() {
