@@ -19,7 +19,7 @@ jobs:
         run: curl --cookie cookie.txt --cookie-jar cookie.txt "${{secrets.PHOTO_URL}}/webapi/auth.cgi?api=SYNO.API.Auth&version=3&method=login&account=${{secrets.PHOTO_ACCOUNT}}&passwd=${{secrets.PHOTO_PASSWORD}}"
 
       - name: Get Photo List
-        run: curl --cookie cookie.txt --cookie-jar cookie.txt "${{secrets.PHOTO_URL}}/webapi/entry.cgi?api=SYNO.FotoTeam.Browse.Item&method=list&version=1&offset=0&limit=100&additional=%5B%22thumbnail%22%5D&type=photo" > result.json
+        run: curl --cookie cookie.txt --cookie-jar cookie.txt "${{secrets.PHOTO_URL}}/webapi/entry.cgi?api=SYNO.FotoTeam.Browse.Item&method=list&version=1&offset=0&limit=500&additional=%5B%22thumbnail%22%5D&type=photo" > result.json
           
       - name: Clear cookir
         run: rm -rf cookie.txt
