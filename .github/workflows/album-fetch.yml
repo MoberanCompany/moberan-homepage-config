@@ -1,4 +1,4 @@
-name: android
+name: photo
 
 permissions:
   contents: write
@@ -11,7 +11,7 @@ on:
     - main
 
 jobs:
-  android-build:
+  photo-fetch:
     runs-on: ubuntu-latest
     steps:
 
