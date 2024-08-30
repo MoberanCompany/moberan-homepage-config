@@ -32,4 +32,4 @@ jobs:
           makeLatest: true
           allowUpdates: true
           tag: album
-          name: album.json
+          name: album
