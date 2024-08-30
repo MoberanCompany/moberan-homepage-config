@@ -22,7 +22,7 @@ const peopleData = [
     },
     {
         "name": "손민재",
-        "image": "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/minjae.jfif?raw=true",
+        "image": "https://github.com/bungabear.png",
         "role": "Mobile Application",
         "bio": "전문가의 손길로 사용성 좋은 편리한 앱을 만들어 드리겠습니다!",
         "link": "https://github.com/bungabear"
@@ -35,19 +35,12 @@ const peopleData = [
         "link": "https://github.com/haesungjoo"
     },
     {
-        "name": "최경민",
-        "image": "https://avatars.githubusercontent.com/u/47469682?v=4",
+        "name": "이주원",
+        "image": "https://github.com/juser0.png",
         "role": "Web Application",
-        "bio": "갓생 살려다가 갓까스로 살아남고 있어요.",
-        "link": "https://blog.kimwash.xyz"
+        "bio": "효율적인 코드로 사용성있는 앱을 만들기 위해 노력합니다.",
+        "link": "https://github.com/juser0"
     },
-    {
-        "name": "조새벽",
-        "image": "https://github.com/MoberanCompany/moberan-homepage-config/blob/main/person/saebyeok.jpg?raw=ture", 
-        "role": "Mobile Application",
-        "bio": "중요한건 꺾였는데도 그냥 하는 마음",
-        "link": "https://github.com/chochoq"
-    }
 ];
 
 function peopleGenerate() {
