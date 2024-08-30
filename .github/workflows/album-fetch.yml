@@ -1,0 +1,35 @@
+name: android
+
+permissions:
+  contents: write
+
+on:
+  schedule: 
+    - cron: '*/10 * * * *'
+  push:
+    branches:
+    - main
+
+jobs:
+  android-build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Login
+        run: curl --cookie cookie.txt --cookie-jar cookie.txt "${{secrets.PHOTO_URL}}/webapi/auth.cgi?api=SYNO.API.Auth&version=3&method=login&account=${{secrets.PHOTO_ACCOUNT}}&passwd=${{secrets.PHOTO_PASSWORD}}"
+
+      - name: Get Photo List
+        run: curl --cookie cookie.txt --cookie-jar cookie.txt "${{secrets.PHOTO_URL}}/webapi/entry.cgi?api=SYNO.FotoTeam.Browse.Item&method=list&version=1&offset=0&limit=100&additional=%5B%22thumbnail%22%5D&type=photo" > result.json
+          
+      - name: Clear cookir
+        run: rm -rf cookie.txt
+      
+      - name: Create Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          artifacts: result.json
+          artifactContentType: application/json
+          makeLatest: true
+          allowUpdates: true
+          tag: album
+          name: album.json
