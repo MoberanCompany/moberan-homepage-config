@@ -54,8 +54,9 @@ async function processAlbum(url){
 function makeGalleryImage(item){
     const id = item.id;
     const cacheKey = item.additional?.thumbnail?.cache_key ?? '2810_1724393394';
+    const alt = item.filename ?? 'album image';
     const url = wrapCors(`https://photo.moberan.com/webapi/entry.cgi?api=SYNO.FotoTeam.Thumbnail&method=get&version=1&id=${id}&type=unit&cache_key=${cacheKey}&size=m`)
-    return `<div><img style="border-radius: 15px;" data-lazy="${url}" /></div>`;
+    return `<div><img style="border-radius: 15px;" data-lazy="${url}" alt="${alt}" /></div>`;
 }
 
 function wrapCors(url){
