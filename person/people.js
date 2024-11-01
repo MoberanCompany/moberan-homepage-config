@@ -51,7 +51,7 @@ function peopleGenerate() {
             <a href="${e.link}" target="_blank">
                 <div class="staff_list">
                     <div class="staff_thumb">
-                        <img src="${e.image}" style="object-fit: cover;aspect-ratio: 1/1;">
+                        <img src="${e.image}" style="object-fit: cover;aspect-ratio: 1/1;" alt="${e.name} 프로필 사진">
                     </div>
                     <div class="staff_txt">
                         <h4 class="staff_tit">${e.name}</h4>
