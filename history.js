@@ -106,8 +106,17 @@ const historyData = {
     ],
     "2024": [
         "국회정책방송플랫폼 프론트, 관리자 개발",
-        "MBC 2024 총선 컨트롤러 개발",
-        "YTN 엘리멘탈 라이브 컨트롤러 개발",
+        "MBC 22대 총선 컨트롤러 개발",
+        "MBC 22대 총선 LED 컨트롤러 개발",
+        "Cprice 앱 서비스 개발",
+        "하이잡하이유 NFT 웹 서비스 개발",
+        "우리은행 사내방송국 유지보수 개발",
+        "YTN Elemental Live 기반 Youtube 방송 송출 시스템 개발",
+        "S1 비디오월 고도화 개발",
+        "롯데홈쇼핑 Elemental Live 기반 CMS 개발",
+        "MBC VNLE 개발",
+        "HwikCircle Layer 블록체인 스테이킹 개발",
+        "트웰브랩스 AI 기반 영상 CMS 프론트 개발"
     ],
 };
 
