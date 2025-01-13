@@ -1,15 +1,15 @@
 name: apply
 
 on:
-  schedule: 
-    - cron: '*/10 * * * *'
+  schedule:
+    - cron: "*/10 * * * *"
   push:
     branches:
       - main
 
 jobs:
   photo-fetch:
-    runs-on: ubuntu-latest
+    runs-on: linux
     steps:
       - uses: actions/checkout@v4
 
