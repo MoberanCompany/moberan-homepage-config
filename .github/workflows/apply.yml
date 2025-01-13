@@ -1,0 +1,25 @@
+name: apply
+
+on:
+  schedule: 
+    - cron: '*/10 * * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  photo-fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4.1.0
+        with:
+          node-version: 18
+
+      - name: run
+        run: npm run run
+        env:
+          PHOTO_ACCOUNT: ${{ secrets.PHOTO_ACCOUNT }}
+          PHOTO_PASSWORD: ${{ secrets.PHOTO_PASSWORD }}

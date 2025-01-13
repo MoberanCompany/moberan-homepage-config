@@ -1,0 +1,121 @@
+{
+  "2011": [
+    "모베란 법인 설립",
+    "MBC 기상센터 천리안 위성영상 출력 프로그램 Baldur 개발",
+    "미쯔비시 엘리베이터 스마트 A/S 시스템 개발",
+    "울타리 정보통신 메신저 모바일 버전 개발 참여"
+  ],
+  "2012": [
+    "레몬메일 ASP 사이트 개발",
+    "MBC 총선 스케쥴러 개발",
+    "KBS 총선 코더 개발",
+    "SBS CNBC 증시 Wasp 코더 개발",
+    "ETRI LBS 실내 네비게이션 연구과제 개발",
+    "JTBC 대선 토네이도 코더 개발",
+    "Moberan NPC 원격 멀티 모니터링 출시"
+  ],
+  "2013": [
+    "Top Weather 기상영상 제작 솔루션 출시",
+    "코나아이 스마트 월렛 개발",
+    "Posco LED 조명 제어 앱 개발",
+    "인천시 행복나눔 복지 사이트 개발"
+  ],
+  "2014": [
+    "MBC 지방선거 코더 개발",
+    "MBC 방송준비 시스템 개발",
+    "MBC 편성 CMS 개발",
+    "JTBC TopWeather  납품",
+    "Moberan FMS 솔루션 출시"
+  ],
+  "2015": [
+    "MBC ClipBank3 개발",
+    "MBN Top Weather 납품",
+    "HTML5 기반 FMS 솔루션 출시, 세종로 호텔 납품",
+    "MBC 광고총량제 모니터 프로그램 납품",
+    "인포스립트 티켓포스(KIOSK) 개발",
+    "HTML5 기반 MBC DAMS 개발",
+    "HTML5 기반 MBC 통합유통정보 개발"
+  ],
+  "2016": [
+    "HTML5 기반 소셜 게임 MocaGame출시",
+    "MBC 총선 카리스마 코더 개발",
+    "HTML5 기반 MBC 컨텐츠 게이트웨이 개발",
+    "KBS WebNLE Front-End 개발"
+  ],
+  "2017": [
+    "MocaWallet 출시",
+    "FDSI와 MokaWallet 계약 체결",
+    "HTML5 FMS 강동팰리스 납품",
+    "MBC 대선 카리스마 코더 개발",
+    "SBS TopWeather  납품"
+  ],
+  "2018": [
+    "농업방송 TopWeather 납품",
+    "MBC 지방선거 컨트롤러 개발",
+    "MBC 지방선거 터치 스크린 개발"
+  ],
+  "2019": [
+    "CompePrice e-PriceTag 서버, 앱 개발",
+    "인천대학교 공장 라인 스케쥴링 차트 개발",
+    "MBC 자막 수신 서버 개발",
+    "MBC 메타허브 개발",
+    "아이디어컴즈 마스터노드 코인 개발"
+  ],
+  "2020": [
+    "EIP 비즈멤버톡 앱서비스 리뉴얼",
+    "인천대학교  R&D HUB 앱 서비스 개발",
+    "강릉휙파인패스 모빌리티 서버 개발",
+    "MBC SNS 관리 서비스 개발",
+    "MBC 2020 총선 컨트롤러 개발",
+    "Sylab 표적식별 AI 프로젝트 개발"
+  ],
+  "2021": [
+    "리얼툴스 APT 실거래가 조회 사이트 개발",
+    "WebRTC 기반 TinyRTC Framework 출시",
+    "베이글랩스 통합 블루투스 모듈 개발",
+    "MoNFT Market Place 출시",
+    "Babidiba NFT Market Place 납품",
+    "MBC FAST 삼성TV Elemental Live 연동 서비스 개발",
+    "Castware Here TinyRTC Frame 기반 앱 서비스 개발"
+  ],
+  "2022": [
+    "MBC ClipBank3 유지보수 체결",
+    "MBC C&I와 MBC 기상센터 천리안 위성영상 출력 프로그램 Baldur3 고도화",
+    "MBC 2022 대선 터치 개발",
+    "MBC 2022 지방선거 터치 및 컨트롤러 개발",
+    "CNI 리그 게임 관리 웹 개발",
+    "TV 조선 topWeather 납품",
+    "Aniverse NFT Staking System 개발",
+    "WAVVE 계정관리 솔루션 웹 개발",
+    "KFA 경기영상아카이브 웹 개발",
+    "메모리얼 메타버스 NFT Market Place 납품",
+    "MBC 송출 소재 외부 입고 시스 개발",
+    "JTBC CCTV 스트리밍 및 송출관리 웹 개발"
+  ],
+  "2023": [
+    "MBC ClipBank3 유지보수 체결",
+    "MBC C&I와 MBC 기상센터 천리안 위성영상 출력 프로그램 Baldur3 고도화",
+    "CompePrice e-PriceTag 서버, 앱 ver2 개발",
+    "W Channel 우리그룹 웹 방송 시스템 개발",
+    "건설기술연구원 BEMS 플랫폼 연구 과제 수행",
+    "JTBC FAST 삼성TV Elemental Live 연동 서비스 개발",
+    "하이유 하이잡 NFT Market Place 납품",
+    "휙써클 Quest, MystiBox 개발",
+    "Castware Here TinyRTC Frame 기반 앱 서비스 고도화",
+    "KFA 경기영상아카이브 웹 고도화"
+  ],
+  "2024": [
+    "국회정책방송플랫폼 프론트, 관리자 개발",
+    "MBC 22대 총선 컨트롤러 개발",
+    "MBC 22대 총선 LED 컨트롤러 개발",
+    "Cprice 앱 서비스 개발",
+    "하이잡하이유 NFT 웹 서비스 개발",
+    "우리은행 사내방송국 유지보수 개발",
+    "YTN Elemental Live 기반 Youtube 방송 송출 시스템 개발",
+    "S1 비디오월 고도화 개발",
+    "롯데홈쇼핑 Elemental Live 기반 CMS 개발",
+    "MBC VNLE 개발",
+    "HwikCircle Layer 블록체인 스테이킹 개발",
+    "트웰브랩스 AI 기반 영상 CMS 프론트 개발"
+  ]
+}
