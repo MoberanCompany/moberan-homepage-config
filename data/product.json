@@ -37,6 +37,14 @@
     ]
   },
   {
+    "badgeYN": "Y",
+    "badgeText": "LIVE Streaming",
+    "thumbNailImagePath": "/public/product/moLive.png?",
+    "productTitle": "moLiveAgent",
+    "productContent": "Elemental Live 를 이용한 Live Streaming 자동화 에이전트. (Fast, Youtube, SCTE-35 연동, Live 녹화 등)",
+    "linkBtnGroup": []
+  },
+  {
     "badgeYN": "N",
     "badgeText": "",
     "thumbNailImagePath": "/public/product/rndhub.jpg?",
