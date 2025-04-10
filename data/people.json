@@ -41,4 +41,11 @@
     "bio": "카페인 주도 설계~",
     "link": "https://github.com/CHOYUNSIG"
   }
+  {
+    "name": "박지민",
+    "image": "/public/person/jimin.jpg?raw=true",
+    "role": "Intern",
+    "bio": "오늘도 노력하겠습니다 :)",
+    "link": "https://github.com/Batjimin"
+  }
 ]
