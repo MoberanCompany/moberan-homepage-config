@@ -33,5 +33,12 @@
     "role": "Web Application",
     "bio": "뭐든 꼼꼼히 보려 노력합니다.",
     "link": "https://github.com/haesungjoo"
+  },
+  {
+    "name": "조윤식",
+    "image": "/public/person/choyunsig.jpg?raw=true",
+    "role": "Intern",
+    "bio": "카페인 주도 설계~",
+    "link": "https://github.com/CHOYUNSIG"
   }
 ]
