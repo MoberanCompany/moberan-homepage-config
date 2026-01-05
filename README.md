@@ -3,6 +3,7 @@
 1. data 내 json 수정
 2. public 내 필요한 파일 추가
 3. commit & push
+4. Github Actions apply 에서 Run workflow(main) 실행
 
 # 동작 구조
 
