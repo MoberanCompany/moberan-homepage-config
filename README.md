@@ -1,9 +1,9 @@
 # 홈페이지 내용 작성 방법
 
-1. npm install
-2. data 내 json 수정
-3. public 내 필요한 파일 추가
-4. commit & push
+1. data 내 json 수정
+2. public 내 필요한 파일 추가
+3. commit & push
+4. Github Action 자동 수행 대기
 
 * public/html 은 직접 수정해도 소용 없음
 
